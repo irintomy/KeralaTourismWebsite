@@ -1,0 +1,106 @@
+/* background img */
+body{
+    padding: 0; 
+    margin: 0;
+    background: url('../images/bg5.jpg');
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* strt header style */
+header{
+    background:rgb(204, 255, 255) ;
+    height: 80px;
+}
+
+header img{
+    margin-left: 50px;
+    margin-top: 7px;   
+}
+
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    color: magenta;
+    background-color: rgb(224, 121, 224) 1px ;
+    border:rgb(224, 121, 224) 1px solid;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color: rgb(36, 154, 233);
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+/* end header style */
+
+/* strt heading and abt style */
+.topic{
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.topic h1{
+    font-weight: bolder;
+    color:rgb(0, 191, 255);
+    margin-top: 5px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.subject{
+    min-height: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: justify;
+    color:rgb(250, 4, 66) ;
+}
+.subject p{
+    font-size: 15px;
+    padding: 10px;
+    margin:1cm ;
+}
+/* end heading and abt style */
+
+/* strt top places style  */
+#trainings{
+    margin-top: 10px;
+    padding-left: 50px;
+}
+#trainings .box{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+#trainings .box p{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(43, 82, 255);
+}
+
+#trainings .box img{ 
+    width: 200px;
+}
+/* end top places style */
+
+footer{
+    padding: 10px;
+    /* margin-top: 20cm; */
+    color: #8af3f7;
+    background-color: rgb(36, 154, 233);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

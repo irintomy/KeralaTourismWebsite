@@ -1,0 +1,97 @@
+/* background img */
+body{
+    padding: 0;
+    margin: 0;
+    background: url('../images/bg6.jpg');
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* strt header style */
+header{
+    background:rgb(204, 255, 255) ;
+    height: 80px;
+}
+
+img{
+    margin-left: 50px;
+    margin-top: 7px;   
+}
+
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    color: magenta;
+    background-color: rgb(224, 121, 224) 1px ;
+    border:rgb(224, 121, 224) 1px solid;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color: rgb(36, 154, 233);
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+/* end header style */
+
+/* names of districts */
+.names{
+    padding-left: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+.names a{
+    vertical-align: middle;
+}
+.myMargin{
+    margin: 7px;
+    justify-items: center;
+}
+/* end names of districts */
+
+/* seach box style */
+/* .myMargin2{
+    
+} */
+.myMargin2 img{
+    width: 125px;
+}
+
+/* strt district link style */
+.myMargin2 a{
+    font-size: large;
+    text-decoration: none;
+    font-weight: bolder ;
+    color: greenyellow;
+}
+
+.myMargin2 a:hover{
+    background-color: dodgerblue;
+    color: black;
+    transition: 0.5s ease-in-out;
+
+}
+/* end distrct link style */
+/* end of names of districts */
+
+footer{
+    padding: 10px;
+    /* margin-top: 20cm; */
+    color: #8af3f7;
+    background-color: rgb(36, 154, 233);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

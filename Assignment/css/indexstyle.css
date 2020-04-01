@@ -1,0 +1,96 @@
+/* background img */
+body{
+    padding: 0;
+    margin: 0;
+    background: url('../images/bg7.jpg');
+    
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* strt header style */
+header{
+    background:rgb(204, 255, 255) ;
+    height: 80px;
+}
+
+header img{
+    margin-left: 50px;
+    margin-top: 7px;  
+}
+
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    color: magenta;
+    border:rgb(0, 179, 179) 1px solid;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color: rgb(36, 154, 233);
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+/* end header style */
+
+/* strt heading style */
+#head1{
+    color: rgb(28, 243, 56);
+    text-align: center;
+    font-weight: bolder;
+    /* font-size: 1cm; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#head2{
+    color: hotpink;
+    font-weight: bolder;
+    text-align: center;
+    /* font-size: .75cm; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#para{
+    text-align: center;
+    color: indigo;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin:1cm ;
+}
+/* end heading style */
+
+/* strt carousel style */
+.bd-example {
+    align-content: center;
+    padding-left: 200px;
+    padding-top: 1px;
+    padding-bottom: 80px;
+    padding-right: 200px;
+    /* height: 60%;
+    width:  60%; */
+}
+/* end carousel style */
+
+footer{
+    padding: 10px;
+    /* margin-top: 20cm; */
+    color: #8af3f7;
+    background-color: rgb(36, 154, 233);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+

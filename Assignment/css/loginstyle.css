@@ -1,0 +1,98 @@
+/* background img */
+body{
+    padding: 0;
+    margin: 0;
+    background: url('../images/bg3.jpg');
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* .header{
+    background:rgb(204, 255, 255) ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+img{
+    margin-left: 50px;
+    margin-top: 7px;  
+} */
+
+/* strt login form style */
+.login{
+    float: right;
+    border: 2px solid rgb(196, 237, 245);
+    background-color: rgb(196, 237, 245);
+    height: 23em;
+    margin-top: 5%;
+    margin-right: 43%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+/* login heading style */
+.login h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* form height */
+.login input{
+    height: 1.5em;
+}
+
+/* login button style */
+.login #login-button{
+    width: 90%;
+    height: 2em;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+/* login button link style */
+#login-button a{
+    text-decoration: none;
+    font-weight: bolder ;
+    color: white;
+}
+
+/* enter email and password style */
+.login-cont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bolder ;
+}
+
+/* new user and signup style */
+.login-misc a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bolder ;
+    color: blue;
+}
+
+.login-misc a:hover{
+    background-color: dodgerblue;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+footer{
+    padding: 10px;
+    /* margin-top: 20cm; */
+    color: #8af3f7;
+    background-color: rgb(36, 154, 233);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
