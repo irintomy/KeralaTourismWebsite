@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>SignUp</title>
+    <link rel="shortcut icon" href="images/login.jpg">
+    <link rel="stylesheet" href="css/signupstyle.css">
+</head>
+<body>
+
+    <!-- strt singnup form -->
+    <form action="login.html" onsubmit="return validContct();return validEmail();return validPassword();return validConfPswd()" class="signup">
+        <h2>Create New Account</h2>
+        <br>
+        <div class="signup-cont">
+            <label for="Username">Enter Username&nbsp;&nbsp;:</label>
+            <input type="text"  autocomplete="off" placeholder="username" id="usr" required >
+            <spam id="usrsp" class="text-danger font-weight-bold"></spam>
+        </div><br>
+        <div class="signup-cont">
+            <label for="ContactNo">Enter ContactNo&nbsp;&nbsp;:</label>
+            <input type="number" autocomplete="off" placeholder="ContactNo" id="contctno">
+            <spam id="contnosp" class="text-danger font-weight-bold"></spam>
+        </div><br>
+        <div class="signup-cont">
+            <label for="Email">Enter Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <input type="email" autocomplete="off" placeholder="email" id="email">
+            <spam id="emailsp" class="text-danger font-weight-bold"></spam>
+        </div><br>
+        <!-- <label for="error" id="error"></label> -->
+        <div class="signup-cont">
+            <label for="password">New Password&nbsp;&nbsp;&nbsp;:</label>
+            <input type="password"  placeholder="new password" id="psd">
+            <spam id="pswdsp" class="text-danger font-weight-bold"></spam>
+        </div><br>
+        <div class="signup-cont">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password"  placeholder="Confirm Password" id="cnfrmpsd">
+            <spam id="confpswdsp" class="text-danger font-weight-bold"></spam>
+        </div><br>
+        <div class="signup-cont">
+            <label for="error" id="error"></label>
+        </div>
+        <div class="signup-misc">
+            <h5>By clicking Sign Up, you agree to our Terms
+                 and Policy.</h5>
+        </div>
+        <div>
+            <button id="signup-button"><a href="#">Sign Up</a></button>
+        </div>  
+       
+    </form>
+    <!-- end signup form -->
+    <script src="form.js"></script>  
+    <footer>
+        <small>  Department of Tourism, Kerala <br> &copy;2020</small>     
+    </footer>
+</body>
+</html>
